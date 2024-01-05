@@ -6,7 +6,7 @@ export interface IHeroData {
     fullName: string;
     birthday: string;
     homeland: string;
-    heigth: number;
-    weigth: number;
+    height: number;
+    weight: number;
   };
 }
