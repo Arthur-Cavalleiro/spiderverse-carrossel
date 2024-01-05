@@ -29,7 +29,7 @@ export default function RootLayout({
             width={260}
             height={70}
           />
-          <Image src="/icons/user.svg" alt="Login" width={36} height={25} />
+          <Image src="/icons/user.svg" alt="Login" width={36} height={36} />
         </header>
         {children}
       </body>

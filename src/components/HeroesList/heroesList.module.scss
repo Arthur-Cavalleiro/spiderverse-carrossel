@@ -16,7 +16,7 @@
   width: 100%;
   max-width: calc($max-width - 700px);
   position: absolute;
-  top: 40vh;
+  top: 40%;
 
   @media screen and (min-width: $max-width) {
     max-width: calc($max-width - 400px);
@@ -56,7 +56,3 @@
     height: $spider-man-928-height;
   }
 }
-
-// Altura não esta funcionando
-
-// Biblioteca framer motion
