@@ -16,7 +16,7 @@
   width: 100%;
   max-width: calc($max-width - 700px);
   position: absolute;
-  top: 40%;
+  top: 30%;
 
   @media screen and (min-width: $max-width) {
     max-width: calc($max-width - 400px);
