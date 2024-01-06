@@ -3,8 +3,10 @@
 :root {
   height: 100vh;
   overflow-y: hidden;
+  transition: background 0.8s ease-in-out;
+  background-size: cover;
 
-  &::before {
+  &:not(.hero-page)::before {
     content: "";
     background: $background;
     width: 100%;
