@@ -1,10 +1,13 @@
 "use client";
 import { motion } from "framer-motion";
-import { spidermanFont } from "@/fonts";
-import { IHeroData } from "@/interfaces/heroes";
-import styles from "./heroesList.module.scss";
-import HeroPicture from "../HeroPicture";
 import Link from "next/link";
+
+import HeroPicture from "../HeroPicture";
+
+import styles from "./heroesList.module.scss";
+
+import { IHeroData } from "@/interfaces/heroes";
+import { spidermanFont } from "@/fonts";
 
 interface IProps {
   heroes: IHeroData[];
